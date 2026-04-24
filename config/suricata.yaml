@@ -18,4 +18,4 @@ outputs:
         - dns
 
 rule-files:
-  - local.rules
+  - /var/lib/suricata/rules/local.rules
