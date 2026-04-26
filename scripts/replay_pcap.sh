@@ -60,6 +60,6 @@ fi
 
 cp results/eve.json artifacts/release/logs/eve.json
 
-python3 scripts/evaluate.py "$PCAP_FILE"
+python3 ./scripts/evaluate.py "$PCAP_FILE"
 
 echo "Demo complete."

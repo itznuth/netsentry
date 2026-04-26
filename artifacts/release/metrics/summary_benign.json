@@ -1,0 +1,6 @@
+{
+  "pcap": "pcaps/benign/demo_normal.pcap",
+  "events_processed": 1,
+  "alerts_detected": 0,
+  "status": "ok"
+}

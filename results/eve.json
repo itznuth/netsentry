@@ -1,0 +1,4 @@
+{"timestamp":"2026-04-26 11:05:11","event_type":"flow","pcap":"pcaps/malicious/demo_attack.pcap","traffic_type":"malicious"}
+{"timestamp":"2026-04-26 11:05:11","event_type":"alert","alert":{"signature":"NetSentry demo alert 1"}}
+{"timestamp":"2026-04-26 11:05:11","event_type":"alert","alert":{"signature":"NetSentry demo alert 2"}}
+{"timestamp":"2026-04-26 11:05:11","event_type":"alert","alert":{"signature":"NetSentry demo alert 3"}}

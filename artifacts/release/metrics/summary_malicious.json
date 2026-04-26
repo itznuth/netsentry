@@ -1,0 +1,6 @@
+{
+  "pcap": "pcaps/malicious/demo_attack.pcap",
+  "events_processed": 4,
+  "alerts_detected": 3,
+  "status": "ok"
+}
