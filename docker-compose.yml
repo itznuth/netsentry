@@ -1,13 +1,11 @@
 services:
   mock-web:
     build: ./services/mock-web
-    container_name: netsentry-mock-web
     ports:
       - "8080:8080"
 
   suricata:
     image: jasonish/suricata:latest
-    container_name: netsentry-suricata
     command: ["-T", "-c", "/etc/suricata/suricata.yaml"]
     volumes:
       - ./config/suricata.yaml:/etc/suricata/suricata.yaml
