@@ -1,5 +1,5 @@
 bootstrap:
-	chmod +x scripts/bootstrap.sh scripts/replay_pcap.sh
+	chmod +x scripts/bootstrap.sh scripts/replay_pcap.sh scripts/run_demo_suite.sh
 	./scripts/bootstrap.sh
 
 up:
@@ -12,10 +12,10 @@ logs:
 	docker compose logs --no-color
 
 demo:
-	./scripts/replay_pcap.sh pcaps/malicious/demo_attack.pcap
+	./scripts/run_demo_suite.sh
 
 evaluate:
-	python3 scripts/evaluate.py
+	python3 ./scripts/evaluate.py pcaps/malicious/demo_attack.pcap
 
 clean:
 	docker compose down -v
